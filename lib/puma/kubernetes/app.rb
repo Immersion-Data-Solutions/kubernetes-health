@@ -2,6 +2,7 @@ require 'kubernetes/health/config'
 require 'prometheus/client/formats/text'
 require 'puma/kubernetes/parser'
 require 'rack'
+require 'active_support/core_ext/object'
 
 module Puma
   module Kubernetes
